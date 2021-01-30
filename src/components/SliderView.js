@@ -9,7 +9,7 @@ const SliderView = ({ className }) => {
 		height: "100%",
 		// width: "100%",
 		backgroundRepeat: "no-repeat",
-		backgroundPosition: "center",
+		backgroundPosition: "100% 50%",
 	});
 
 	const images = [

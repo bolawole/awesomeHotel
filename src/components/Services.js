@@ -4,6 +4,7 @@ import styled from "styled-components";
 import DirectionsCarIcon from "@material-ui/icons/DirectionsCar";
 import WifiIcon from "@material-ui/icons/Wifi";
 import LocalDiningIcon from "@material-ui/icons/LocalDining";
+import Electicity from "./SVGS/Electicity";
 const Services = ({ className }) => {
 	const services = [
 		{
@@ -21,8 +22,8 @@ const Services = ({ className }) => {
 		{
 			text:
 				"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt doloribus recusandae voluptates illum ipsa dignissimos sed numquam facilis libero voluptas",
-			heading: "DINNING",
-			img: <LocalDiningIcon />,
+			heading: "STABLE POWER",
+			img: <Electicity />,
 		},
 	];
 	return (
@@ -49,5 +50,6 @@ export default styled(Services)`
 	.servicelist {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 `;

@@ -47,8 +47,8 @@ export default styled(MainDashboard)`
 		font-family: "Roboto", sans-serif;
 	}
 	.reveal {
-		margin-right: 25%;
-		margin-left: 25%;
+		width: 80%;
+		margin: auto;
 		.maindashboard_about {
 			font-style: italic;
 			color: ${setColor.letterColordark}8c;

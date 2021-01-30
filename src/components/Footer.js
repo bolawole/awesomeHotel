@@ -19,14 +19,6 @@ const Footer = ({ className }) => {
 					<p>awesome4services@gmail.com</p>
 				</div>
 			</div>
-			<div className="footer_nav">
-				<ul>
-					<li>Home</li>
-					<li>Rooms</li>
-					<li>Gallery</li>
-					<li>Contact Us</li>
-				</ul>
-			</div>
 		</div>
 	);
 };

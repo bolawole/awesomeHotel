@@ -9,39 +9,36 @@ const Header = ({ className }) => {
 			<div className="header">
 				<div className="header_pre">
 					<p>
-						{" "}
 						<LocationOnIcon /> Osogbo, Osun State
 					</p>
 					<p>
-						{" "}
 						<PhoneIcon /> +2347068452016
 					</p>
 				</div>
-				<div className="header_tab">
-					<p>Home</p>
+				<NavLinks className="header_tab">
 					<p>ROOMS & RATES</p>
-					<p>AMENITIES</p>
-					<p>GALLERY</p>
-					<p>LOCATION & CONTACT</p>
-				</div>
+				</NavLinks>
 			</div>
 		</div>
 	);
 };
 
 export default styled(Header)`
-	color: ${setColor.themeColor3green};
 	.header {
 		background-color: ${setColor.themeColor2};
 		.header_pre {
-			display: flex;
-		}
-		.header_tab {
-			margin: 0 25%;
+			color: white;
 			display: flex;
 			/* width: 100%; */
-			justify-content: space-around;
-			font-weight: 500;
+			justify-content: flex-end;
+			margin-right: 20px;
+			p {
+				margin-right: 20px;
+			}
 		}
 	}
+`;
+const NavLinks = styled.div`
+	display: flex;
+	color: ${setColor.themeColor3green};
 `;
